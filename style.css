@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(51, 0, 51);
+}
+
+img {
+    position: absolute;
+    display: block;
+    margin-left: 49.75%;
+    margin-right: 49.75%;
+    margin-top: 28%;
+    margin-bottom: 28%;
+    z-index: 1;
+}
+
+span {
+    position: absolute;
+    font-size: 200%;
+    background: black;
+    color: white;
+    z-index: 2;
+}
+
+.cont {
+    top: 45%;
+    left: 45%;
+    position: absolute;
+    opacity: 0;
+    font-size: 300%;
+    z-index: -1;
+    cursor: pointer;
+}
+
+canvas {
+    image-rendering: pixelated;
+    z-index: 0;
+}
+
+.secondview {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+
+progress {
+    position: fixed;
+    z-index: 1;
+    left: 0%;
+    width: 100%;
+}
+
+.noise {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0;
+    cursor: url("/Media/cursor.png"), auto;
+}
+
+.fps {
+    position: absolute;
+    right: 0;
+    font-size: 200%;
+    background: black;
+    color: white;
+}

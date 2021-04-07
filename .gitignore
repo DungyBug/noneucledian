@@ -1,0 +1,5 @@
+node_modules
+dist
+.parcel-cache
+.yo-rc.json
+docs
