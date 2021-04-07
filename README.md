@@ -1,15 +1,8 @@
-# 🚀 Welcome to your new awesome project!
+# 3D first person shooter demo
 
-This project has been created using **webpack scaffold**, you can now run
-
-```
-npm run build
-```
-
-or
+### run:
 
 ```
-yarn build
+npm install
+npm start
 ```
-
-to bundle your application
